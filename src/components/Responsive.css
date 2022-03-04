@@ -1,0 +1,171 @@
+/* if the viewport is equal to 340px or less than that */ 
+@media only screen and (max-width: 375px){
+    .header_area .main-menu .navbar,
+    .header_area .main-menu .navbar .navbar-brand,
+    .site-main .subscribe-us-area .subscribe .subscribe-title,
+    .site-main .subscribe-us-area .subscribe .subscribe-title p, h4,
+    .site-main .services-area,
+    .site-main .subscribe-us-area .subscribe
+    {
+        padding: 2%;
+        margin: 0%;
+    }
+    .site-main .site-banner .site-title h1{
+        font-size: 41px;
+    }
+    .site-main .about-area .about-title h1{
+        font-size: 10px;
+    }
+
+    .site-main .subscribe-us-area .subscribe form .input-textbox input{
+        width: 15rem    !important;
+    }
+
+    .site-main > .services-area .services{
+        width: 13rem;
+    }
+
+    
+
+}
+
+
+/* if the viewport is equal to 340px or less than that */ 
+@media only screen and (max-width: 792px){
+    .site-main .about-area .about-title .title-text,
+    .site-main .skills-area .skills-title .title-text,
+    .site-main .contact-area .contact-title .title-text,
+    .site-main .project-area .project-title .title-h1{
+        font-size: 25px;
+        
+    }
+    .site-main .skills-area .skills-title p{
+        font-size: 12px;
+    }
+    .site-main .skills-area .skills-list h5 {
+        font-size: 15px;
+    }
+    .site-main .skills-area .skills__content .skills_data{
+        padding-top: 0%;
+    }
+    .site-main .skills-area .skills__content .skills_data .skills_titles .skills__name,
+    .site-main .skills-area .skills__content .skills_data .skills_titles .skills__number {
+        font-size: 11px;
+    }
+    .site-main .about-area .about-title .paragraph{
+        font-size: 12px;
+    }
+    .site-main .about-area .about-title .about_social a{
+        
+        font-size: small;
+       
+        
+    }
+    .site-main .about-area .about-title .downloadcv__button a{
+        font-size: 12px;
+    }
+    
+    /* projects*/
+    
+    .site-main .project-area .project-title .button-group{
+        font-size: 12px;
+    }
+
+    .site-main .project-area .project-title .our-project .title .name{
+        font-size: 12px;
+    }
+    .site-main .project-area .project-title .our-project .title .description{
+        font-size: 10px;
+    }
+    .site-main .project-area .project-title .our-project .title .tool{
+        font-size: 10px;
+    }
+    /*contact*/
+
+    .site-main .contact-area .contact_grid  .contact__information .contact__title {
+        font-size: 20px;
+    }
+    .site-main .contact-area .contact_grid  .contact__information span{
+        font-size: 15px;
+    }
+   
+    .site-main .contact-area  .contact__button a{
+        font-size: 12px;
+    }
+    .site-main .contact-area .paragraph .contact__inputs .contact__content label{
+        font-size: 15px;
+    }
+
+    
+      .site-main .site-title .transbox .title-text,
+      .site-main .site-title .transbox .role {
+        font-size: 1.5rem;
+        
+    }
+    .site-main .site-title .transbox .name{
+        font-size: 2.5rem;
+    }
+    .site-main .site-title .transbox .site-buttons button{
+        font-size: 1rem;
+
+    }
+    .site-main .site-banner{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        align-items: center;
+        text-align: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;        
+    
+    }
+    .site-main .site-banner .site-buttons {
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+    .site-main .site-banner .site-buttons .btn{
+        font-size: 10px;
+    }
+
+    /*navbar*/
+
+    .list {
+        flex-direction: column;
+        height: auto;
+    }
+    .items:nth-child(1){
+        border-top: 1px solid rgba(255, 255, 255, 0.555);
+        margin-top: 50px;
+    }
+    .items {
+        width: 100%;
+        border-top: 1px solid rgba(255, 255, 255, 0.555);
+        text-align: center;
+        margin-right: 0px;
+        padding: 20px 0;
+    }
+    .btn {
+        display: block;
+    }
+}
+
+
+
+
+/* if the viewport is equal to 1910px or less than that */ 
+@media only screen and (max-width: 1910px){
+    .header_area .main-menu .navbar{
+        padding: 1rem;
+    }
+
+    .container{
+        max-width: 90%;
+    }
+
+    .site-main .brand-area,
+    .site-main .services-area .services-title,
+    .site-main .about-area{
+        padding: 3% 4%;
+    }
+
+
+}

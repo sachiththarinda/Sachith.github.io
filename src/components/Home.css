@@ -1,0 +1,441 @@
+:root{
+    --primary-color: #4458dc;
+    --primary-color2: #854fee;
+    --title-color: #141313;
+    --text-color: #777777;  
+    --border-color: #201f1f17;  
+   
+    --shadow-color:  0px 10px 30px rgba(118, 85, 225, 0.3);
+    --box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+}
+.text-uppercase{
+    text-transform: uppercase;
+}
+
+
+/* Buttons */ 
+
+.button{
+    padding: .8rem 2.2rem;
+    position: relative;
+    border: 3px solid transparent;
+    border-radius: 80px;
+}
+
+.button.primary-button{
+    background: black;
+    background-clip: padding-box;
+    color: whitesmoke;
+    transition: background .6s ease;
+    box-shadow: var(--box-shadow);
+    
+}
+
+.button.primary-button:hover{
+    background: whitesmoke;
+    background-clip: padding-box;
+    color: black;
+}
+
+.button.primary-button::after, .button.secondary-button::after{
+    position: absolute;
+    top: -2px; left: -2px;
+    bottom: -2px;  right: -2px;
+    background: var(--gradient-color);
+    content: ' ';
+    z-index: -1;
+    border-radius: 4px;
+}
+
+.button.secondary-button{
+    background: blueviolet;
+    background-clip: padding-box;
+    color: rgb(0, 0, 0);
+    transition: background .6s ease;
+    box-shadow: var(--box-shadow);
+}
+
+.button.secondary-button:hover{
+    background: grey;
+    background-clip: padding-box;
+    color: black;
+}
+
+p.para{
+    color: var(--text-color);
+    font: normal 500 16px/ 25px var(--roboto);
+}
+
+.font-roboto{
+    font-family: var(--roboto);
+}
+
+button:focus,
+button:active
+button:hover
+.btn:active,
+.btn.active{
+    outline: 0px !important;
+    box-shadow: none !important;
+}
+
+.title-h1{
+    font: normal bold 39px/ 40px var(--roboto);
+}
+
+
+.navbar_fixed{
+    position: fixed;
+    width: 100%;
+    top: -1px;
+    left: 0; right: 0;
+    background: #ffffff;
+    box-shadow: var(--box-shadow);
+    z-index: 999;
+    transition: background 1s ease;
+}
+
+/* start navigation */ 
+
+.header_area .main-menu .navbar .navbar-brand{
+    padding: 0 2rem 0 5rem;
+}
+
+.header_area .main-menu .navbar{
+    padding: 1rem 20rem ;
+}
+
+.header_area .main-menu .nav-item .nav-link{
+    font: normal 500 15px/2px var(--roboto);
+    text-transform: uppercase;
+    padding: 1.7rem;
+    color: var(--title-color);
+}
+
+.header_area .main-menu .navbar-nav .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+/* end navigation */ 
+
+/* start 1 st area*/
+.site-banner{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-items: center;
+    text-align: center;
+    padding-top: 100px;
+    background-image: url(../images/shewolf1-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: 600px;
+
+}
+
+div.transbox {
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 110px;
+    padding-top: 110px;
+    
+    
+    
+  }
+.site-main .site-banner .site-title h3{
+    padding-top: 35%;
+    font-weight: 500;
+}
+
+.site-main .site-banner .site-title h3::after{
+    content: " ";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+
+.site-main .site-banner .site-title h1{
+    font-size: 5rem;
+}
+
+.site-main .site-banner .site-title h4{
+    font-size: 1.5rem;
+}
+
+
+
+/* Start About Area */ 
+
+img{
+    width:100%;
+    padding-top: 10%;
+   
+}
+
+.site-main .about-area{
+    padding: 8rem 5rem;
+}
+
+
+.site-main .about-area .about-title .para{
+    padding: .4rem 0;
+    padding-top: 15%;
+    padding-left: 15%;
+    padding-right: 15%;
+    
+    
+}
+.site-main .about-area .about-title .about_social{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.site-main .about-area .about-title .about_social a{
+    padding-right: 5%;
+    padding-left: 5%;
+   
+    
+}
+
+
+/* End About Area */ 
+
+/* End About Area */ 
+
+
+
+/* Skills Area */ 
+
+.site-main .skills-area{
+    padding: 7rem 2rem;
+}
+
+
+
+.site-main .skills-area .skills-title h1{
+    font-size: 35px;
+   
+}
+
+.site-main > .skills-area .skills{
+    background: rgba(248, 252, 253, 0.973);
+    padding: 2rem 0;
+    width: 16rem;
+    margin: 5rem .5rem;
+    transition: box-shadow .7s ease;
+}
+
+.site-main > .skills-area .skills:hover{
+    box-shadow: var(--box-shadow);
+}
+
+.skills_container{
+    row-gap: 0;
+    
+}
+.skills__header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+}
+
+.skills__title{
+    font-size: medium;
+
+}
+.skills_subtitle{
+ font-size: small;
+ color: blueviolet;
+}
+.skills_titles{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.skills__name,
+.skills__number{
+    font-size: small;
+    font-weight: 100;
+    padding-top: 15%;
+
+}
+.skills__bar
+.skills__percentage{
+    height: 5px;
+    border-radius: .25rem;
+
+}
+.skills__bar{
+    background-color: rgb(175, 163, 163);
+    
+}
+.skills__percentage{
+    display: block;
+    background-color: blueviolet;
+
+}
+.skills__html{
+    width: 90%;
+}
+.skills__css{
+    width: 90%;
+}
+.skills__javascript{
+    width: 80%;
+}
+.skills__react{
+    width: 75%;
+}
+.skills__php{
+    width: 70%;
+}
+.skills__python{
+    width: 70%;
+}
+.skills__node{
+    width: 75%;
+}
+.skills__ai{
+    width: 90%;
+}
+.skills__ps{
+    width: 75%;
+}
+.skills__canva{
+    width: 80%;
+}
+.skills__frigma{
+    width: 90%;
+}
+.skills__xd{
+    width: 75%;
+}
+/* End skills Area */ 
+
+/* Project Area */
+.site-main .project-area{
+    padding: 4rem 0;
+    
+}
+
+.site-main .project-area .project-title h1{
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+
+.site-main .project-area .button-group button{
+    padding-top: 20px;
+    border: none;
+    text-transform: uppercase;
+}
+
+.site-main .project-area .button-group button + button{
+    padding-left: 3rem;
+}
+
+.site-main .project-area .grid .our-project > .title h4{
+    font: normal 700 25px/12px var(--roboto);
+}
+
+.site-main .project-area .grid .our-project .img a:hover img{
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+
+.site-main .project-area{
+    padding: 4rem 0;
+}
+
+.site-main .project-area .button-group button{
+    background: transparent;
+    border: none;
+    font: normal 500 16px/130px var(--roboto);
+    text-transform: uppercase;
+}
+
+.site-main .project-area .button-group button + button{
+    padding-left: 3rem;
+}
+
+.site-main .project-area .grid .our-project > .title h4{
+    font: normal 700 25px/12px var(--roboto);
+}
+
+.site-main .project-area .grid .our-project .img a:hover img{
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+
+
+/* End Project Area */ 
+
+/* start contact Area */
+
+.site-main .contact-area{
+    padding: 8rem 5rem;
+}
+.site-main .contact-area .contact-title h1{
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+
+
+
+.contact__container{
+    row-gap: 3rem;
+    display:grid;
+}
+
+.contact__information{
+    display: flex;
+    margin-bottom: 30px;
+    padding-top: 2rem;
+
+}
+
+.contact__icon{
+    font-size: 2rem;
+    color: blueviolet;
+    margin-right: 20px;
+}
+.contact__title{
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+.contact__subtitle{
+    font-size: 1rem;
+    color: gray;
+}
+
+
+.contact__label{
+    font-size: 1.1rem;
+    color: blueviolet;
+}
+
+.contact__input{
+    width: 100%;
+    background-color: #b1afaf;
+    color: black;
+    font-size: 1rem;
+    outline: none;
+    
+}
+.contact__button{
+    padding-top: 2rem;
+}
+
+/* End contact Area */
+
