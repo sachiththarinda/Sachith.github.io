@@ -51,7 +51,8 @@ export default function home() {
                            
                                 <button type="button" className="btn button primary-button mr-4 text-uppercase">hire
                                     me</button>
-                                <button type="button" className="btn button secondary-button text-uppercase">Get cv</button>
+                                
+                                <a href="Sachith Tharinda CV.pdf" class="btn button secondary-button text-uppercase" download='sachith my-cv.pdf' >Get cv</a>
                             
                         </div></Jump>
                     </div>
@@ -113,7 +114,7 @@ export default function home() {
             </p>
             
             <div className='downloadcv__button text-center'>
-            <a href="my-cv.pdf" class="btn button secondary-button text-uppercase" download='sachith my-cv.pdf' >Download cv</a>
+            <a href="Sachith Tharinda CV.pdf" class="btn button secondary-button text-uppercase" download='sachith my-cv.pdf' >Download cv</a>
             </div>
             </Fade>
            
@@ -290,7 +291,7 @@ export default function home() {
            </div>
            <div className="skills_data">
              <div className="skills_titles">
-               <h3 className="skills__name">Frigma</h3>
+               <h3 className="skills__name">Figma</h3>
                <span className="skills__number">90%</span>
              </div>
              <div className="skills__bar">

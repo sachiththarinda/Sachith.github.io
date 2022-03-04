@@ -14,6 +14,9 @@ import blog13 from './img/img-13.jpg';
 import blog14 from './img/img-14.jpg';
 import blog15 from './img/img-15.jpg';
 import blog16 from './img/img-16.jpg';
+import blog17 from './img/img-17.jpg';
+import blog18 from './img/img-18.jpg';
+import blog19 from './img/img-19.jpg';
 
 
 export default [
@@ -175,6 +178,38 @@ export default [
         title: 'Pedigree Dogfood',
         category: 'Brand design',
         description: 'Brand design',
+        tool:<a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
+        <i class="fa fa-behance" aria-hidden="true"></i>
+        </a>
+    },
+    {
+        id:17,
+        image: blog17,
+        title: 'Food Hunt',
+        category: 'UI UX design',
+        description: 'Web Application',
+        tool:<a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
+        <i class="fa fa-behance" aria-hidden="true"></i>
+        </a>
+        
+    },
+    {
+        id:18,
+        image: blog18,
+        title: 'TV Time',
+        category: 'UI UX design',
+        description: 'Mobile Application ',
+        tool:<a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
+        <i class="fa fa-behance" aria-hidden="true"></i>
+        </a>
+        
+    },
+    {
+        id:19,
+        image: blog19,
+        title: 'Mobile Application',
+        category: 'UI UX design',
+        description: 'Mobile Application UI ',
         tool:<a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
         <i class="fa fa-behance" aria-hidden="true"></i>
         </a>
