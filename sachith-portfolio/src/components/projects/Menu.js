@@ -12,7 +12,7 @@ function Menu({menuItem}) {
                             <div className="col-lg-4 col-md-6 col-sm-12 element-item latest">
                         <div className="our-project">
                             <div className="img">
-                                <a className="test-popup-link" href="">
+                                <a className="test-popup-link">
                                 <img src={item.image} alt="" className="img-fluid"/>
                                 </a>
                             </div>

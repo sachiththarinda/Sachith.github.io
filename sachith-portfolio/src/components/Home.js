@@ -44,16 +44,16 @@ export default function home() {
     <section className="site-banner" >
             <div className="container-fluid">
             <div className="transbox">
-                        <h3 className="title-text">Hi There, I'm </h3>
-                        <h1 className="title-text text-uppercase">Sachith Tharinda</h1>
+            <Jump><h3 className="title-text">Hi There, I'm </h3></Jump>
+                   <Zoom><h1 className="title-text text-uppercase">Sachith Tharinda</h1></Zoom>
                         <h4 className="title-text ">Designer and Developer</h4>
-                        <div className="site-buttons">
+                        <Jump>    <div className="site-buttons">
                            
                                 <button type="button" className="btn button primary-button mr-4 text-uppercase">hire
                                     me</button>
                                 <button type="button" className="btn button secondary-button text-uppercase">Get cv</button>
                             
-                        </div>
+                        </div></Jump>
                     </div>
                    </div> 
         </section>
@@ -85,12 +85,9 @@ export default function home() {
             <p className="para text-center">
                Im excited to make the leap and continue refining my skills with the right comapny.
                To have a career where I can challenge myself, my capabilities, and my skills that will empower me to achieve the objectives and goals of the organization.
-            
+                         
               
-            
-             
               
-              <Jump>
               <div className='about_social'>
               <a href="https://www.facebook.com/profile.php?id=100069298636765" class='social-icon-link facebook'>
                   <i class='fab fa-facebook-f' />
@@ -112,7 +109,7 @@ export default function home() {
                   </div>
                  
 
-            </Jump>
+           
             </p>
             
             <div className='downloadcv__button text-center'>
