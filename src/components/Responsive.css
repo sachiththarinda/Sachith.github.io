@@ -24,6 +24,7 @@
     .site-main > .services-area .services{
         width: 13rem;
     }
+    
 
     
 
@@ -39,6 +40,7 @@
         font-size: 25px;
         
     }
+    
     .site-main .skills-area .skills-title p{
         font-size: 12px;
     }
@@ -52,6 +54,7 @@
     .site-main .skills-area .skills__content .skills_data .skills_titles .skills__number {
         font-size: 11px;
     }
+   
     .site-main .about-area .about-title .paragraph{
         font-size: 12px;
     }
@@ -111,13 +114,11 @@
     }
     .site-main .site-banner{
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        align-items: center;
-        text-align: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;        
+          background-repeat: no-repeat;
+          background-position: 50%;  
     
     }
+    
     .site-main .site-banner .site-buttons {
         padding-left: 30%;
         padding-right: 30%;

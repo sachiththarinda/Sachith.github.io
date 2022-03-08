@@ -187,7 +187,7 @@ export default [
         image: blog17,
         title: 'Food Hunt',
         category: 'UI UX design',
-        description: 'Web Application',
+        description: 'Web Application UI',
         tool:<a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
         <i class="fa fa-behance" aria-hidden="true"></i>
         </a>
@@ -198,7 +198,7 @@ export default [
         image: blog18,
         title: 'TV Time',
         category: 'UI UX design',
-        description: 'Mobile Application ',
+        description: 'Mobile Application UI',
         tool:<a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
         <i class="fa fa-behance" aria-hidden="true"></i>
         </a>

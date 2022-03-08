@@ -41,7 +41,7 @@ export default function home() {
   </Container>
 </Navbar>
 
-    <section className="site-banner" >
+    <section className="site-banner" >   
             <div className="container-fluid">
             <div className="transbox">
             <Jump><h3 className="title-text">Hi There, I'm </h3></Jump>
@@ -78,16 +78,15 @@ export default function home() {
         
         <Fade left cascade>
             <p className="para text-center">
-               Hello World !!! Im Sachith Tharinda, <br />a web developer and grapic designer..
-               I love to combining the worlds of logic and creative design to make eye-catching, accessible
-               and user-friendly websites and designs.
+               Hello World !!! I'm Sachith Tharinda, <br />a web developer and graphic designer.
+                I love combining the worlds of logic and creative design to make eye-catching,
+                 accessible, and user-friendly websites and designs.
 
             </p>
             <p className="para text-center">
-               Im excited to make the leap and continue refining my skills with the right comapny.
-               To have a career where I can challenge myself, my capabilities, and my skills that will empower me to achieve the objectives and goals of the organization.
-                         
-              
+            I'm excited to make the leap and continue refining my skills with the right company.
+             To have a career where I can challenge myself, my capabilities, and my skills that will 
+            empower me to achieve the objectives and goals of the organization.
               
               <div className='about_social'>
               <a href="https://www.facebook.com/profile.php?id=100069298636765" class='social-icon-link facebook'>
@@ -137,7 +136,7 @@ export default function home() {
             </div>
        
         <Fade left cascade>
-        <div className="container skills-list">
+        <div className="container skills-list" >
             <div className="row">
                 <div className="col-lg-3 col-md-6 col-sm-12">
                     <div className="skills">
