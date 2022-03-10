@@ -14,9 +14,10 @@ import blog13 from './img/img-13.jpg';
 import blog14 from './img/img-14.jpg';
 import blog15 from './img/img-15.jpg';
 import blog16 from './img/img-16.jpg';
-import blog17 from './img/img-17.jpg';
+import blog17 from './img/img-17.png';
 import blog18 from './img/img-18.jpg';
-import blog19 from './img/img-19.jpg';
+import blog19 from './img/img-19.png';
+import blog20 from './img/img-20.png';
 
 
 export default [
@@ -183,15 +184,14 @@ export default [
         </a>
     },
     {
-        id:17,
-        image: blog17,
-        title: 'Food Hunt',
+        id:19,
+        image: blog19,
+        title: 'Mobile Application',
         category: 'UI UX design',
-        description: 'Web Application UI',
+        description: 'Mobile Application UI ',
         tool:<a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
         <i class="fa fa-behance" aria-hidden="true"></i>
         </a>
-        
     },
     {
         id:18,
@@ -205,11 +205,22 @@ export default [
         
     },
     {
-        id:19,
-        image: blog19,
-        title: 'Mobile Application',
+        id:17,
+        image: blog17,
+        title: 'Food Hunt',
         category: 'UI UX design',
-        description: 'Mobile Application UI ',
+        description: 'Web Application Landing page design/ UI',
+        tool:<a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
+        <i class="fa fa-behance" aria-hidden="true"></i>
+        </a>
+        
+    },
+    {
+        id:20,
+        image: blog20,
+        title: 'Star',
+        category: 'UI UX design',
+        description: 'Web Application Landing page UI / Star high performance race cars',
         tool:<a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
         <i class="fa fa-behance" aria-hidden="true"></i>
         </a>
