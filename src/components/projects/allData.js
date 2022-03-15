@@ -15,9 +15,10 @@ import blog14 from './img/img-14.jpg';
 import blog15 from './img/img-15.jpg';
 import blog16 from './img/img-16.jpg';
 import blog17 from './img/img-17.png';
-import blog18 from './img/img-18.jpg';
+import blog18 from './img/img-18.png';
 import blog19 from './img/img-19.png';
 import blog20 from './img/img-20.png';
+import blog21 from './img/img-21.png';
 
 
 export default [
@@ -221,6 +222,16 @@ export default [
         title: 'Star',
         category: 'UI UX design',
         description: 'Web Application Landing page UI / Star high performance race cars',
+        tool:<a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
+        <i class="fa fa-behance" aria-hidden="true"></i>
+        </a>
+    },
+    {
+        id:21,
+        image: blog21,
+        title: 'West Coast',
+        category: 'UI UX design',
+        description: 'Web Application Landing page UI / West Coast ',
         tool:<a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
         <i class="fa fa-behance" aria-hidden="true"></i>
         </a>
