@@ -19,6 +19,7 @@ import blog18 from './img/img-18.png';
 import blog19 from './img/img-19.png';
 import blog20 from './img/img-20.png';
 import blog21 from './img/img-21.png';
+import blog22 from './img/img-22.png';
 
 
 export default [
@@ -163,17 +164,7 @@ export default [
         </a>
         
     },
-    {
-        id:15,
-        image: blog15,
-        title: 'NIBBEL chocolate',
-        category: 'Brand design',
-        description: 'Brand design',
-        tool:<a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
-        <i class="fa fa-behance" aria-hidden="true"></i>
-        </a>
-        
-    },
+    
     {
         id:16,
         image: blog16,
@@ -210,18 +201,28 @@ export default [
         image: blog17,
         title: 'Food Hunt',
         category: 'UI UX design',
-        description: 'Web Application Landing page design/ UI',
+        description: 'Web Application Landing page design | UI',
         tool:<a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
         <i class="fa fa-behance" aria-hidden="true"></i>
         </a>
         
     },
     {
+        id:22,
+        image: blog22,
+        title: 'Vitality',
+        category: 'UI UX design',
+        description: 'Web Application UI | Vitality ',
+        tool:<a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
+        <i class="fa fa-behance" aria-hidden="true"></i>
+        </a>
+    },
+    {
         id:20,
         image: blog20,
         title: 'Star',
         category: 'UI UX design',
-        description: 'Web Application Landing page UI / Star high performance race cars',
+        description: 'Web Application Landing page UI | Star high performance race cars',
         tool:<a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
         <i class="fa fa-behance" aria-hidden="true"></i>
         </a>
@@ -231,7 +232,7 @@ export default [
         image: blog21,
         title: 'West Coast',
         category: 'UI UX design',
-        description: 'Web Application Landing page UI / West Coast ',
+        description: 'Web Application Landing page UI | West Coast ',
         tool:<a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
         <i class="fa fa-behance" aria-hidden="true"></i>
         </a>
