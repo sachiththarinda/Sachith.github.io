@@ -55,6 +55,7 @@ export default function home() {
                                 <a href="Sachith Tharinda CV.pdf" class="btn button secondary-button text-uppercase" download='sachith my-cv.pdf' >Get cv</a>
                             
                         </div></Jump>
+                        
                     </div>
                    </div> 
         </section>
