@@ -20,6 +20,7 @@ import blog19 from './img/img-19.png';
 import blog20 from './img/img-20.png';
 import blog21 from './img/img-21.png';
 import blog22 from './img/img-22.png';
+import blog23 from './img/img-23.png';
 
 
 export default [
@@ -171,6 +172,16 @@ export default [
         title: 'Pedigree Dogfood',
         category: 'Brand design',
         description: 'Brand design',
+        tool:<a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
+        <i class="fa fa-behance" aria-hidden="true"></i>
+        </a>
+    },
+    {
+        id:23,
+        image: blog23,
+        title: 'Supermarket Self checkout Mobile Application',
+        category: 'UI UX design',
+        description: 'Supermarket Self checkout Mobile Application where a user can scan barcodes, pay for the products online and check out physically at the store without the need for waiting in a queue ',
         tool:<a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
         <i class="fa fa-behance" aria-hidden="true"></i>
         </a>
