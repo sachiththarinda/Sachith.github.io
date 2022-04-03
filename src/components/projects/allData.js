@@ -21,7 +21,7 @@ import blog20 from './img/img-20.png';
 import blog21 from './img/img-21.png';
 import blog22 from './img/img-22.png';
 import blog23 from './img/img-23.png';
-import blog10 from './img/img-24.jpg';
+import blog24 from './img/img-24.jpg';
 
 export default [
     {
