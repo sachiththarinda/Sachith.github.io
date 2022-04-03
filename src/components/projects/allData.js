@@ -21,7 +21,7 @@ import blog20 from './img/img-20.png';
 import blog21 from './img/img-21.png';
 import blog22 from './img/img-22.png';
 import blog23 from './img/img-23.png';
-
+import blog10 from './img/img-24.jpg';
 
 export default [
     {
@@ -30,7 +30,7 @@ export default [
         title: 'She/Her',
         category: 'illustartor',
         description: 'Adobe illustrator',
-        tool:<a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
+        tool:<a href="https://www.behance.net/gallery/137706901/She" class='social-icon-link behance'>
         <i class="fa fa-behance" aria-hidden="true"></i>
         </a>
     },
@@ -40,7 +40,17 @@ export default [
         title: 'Moon',
         category: 'illustartor',
         description: 'Adobe illustarator',
-        tool:<a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
+        tool:<a href="https://www.behance.net/gallery/137708087/MOON" class='social-icon-link behance'>
+        <i class="fa fa-behance" aria-hidden="true"></i>
+        </a>
+    },
+    {
+        id:24,
+        image: blog24,
+        title: 'Valkyrie',
+        category: 'illustartor',
+        description: 'Adobe illustarator',
+        tool:<a href="https://www.behance.net/gallery/140826893/Valkyrie" class='social-icon-link behance'>
         <i class="fa fa-behance" aria-hidden="true"></i>
         </a>
     },
@@ -50,27 +60,27 @@ export default [
         title: 'Kissed',
         category: 'illustartor',
         description: 'Adobe illustarator',
-        tool:<a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
+        tool:<a href="https://www.behance.net/gallery/137746821/Kissed" class='social-icon-link behance'>
         <i class="fa fa-behance" aria-hidden="true"></i>
         </a>
     },
     {
         id:4,
         image: blog4,
-        title: 'Black me',
+        title: 'Blackout',
         category: 'illustartor',
         description: 'Adobe illustarator',
-        tool:<a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
+        tool:<a href="https://www.behance.net/gallery/138807481/Blackout" class='social-icon-link behance'>
         <i class="fa fa-behance" aria-hidden="true"></i>
         </a>
     },
     {
         id:5,
         image: blog5,
-        title: 'Black me',
+        title: 'BlackOut',
         category: 'illustartor',
         description: 'Adobe illustarator',
-        tool:<a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
+        tool:<a href="https://www.behance.net/gallery/138807481/Blackout" class='social-icon-link behance'>
         <i class="fa fa-behance" aria-hidden="true"></i>
         </a>
     },
