@@ -44,6 +44,17 @@ export default [
         <i class="fa fa-behance" aria-hidden="true"></i>
         </a>
     },
+   
+    {
+        id:3,
+        image: blog3,
+        title: 'Kissed',
+        category: 'illustartor',
+        description: 'Adobe illustarator',
+        tool:<a href="https://www.behance.net/gallery/137746821/Kissed" class='social-icon-link behance'>
+        <i class="fa fa-behance" aria-hidden="true"></i>
+        </a>
+    },
     {
         id:24,
         image: blog24,
@@ -55,12 +66,12 @@ export default [
         </a>
     },
     {
-        id:3,
-        image: blog3,
-        title: 'Kissed',
+        id:6,
+        image: blog6,
+        title: 'Banner Design',
         category: 'illustartor',
         description: 'Adobe illustarator',
-        tool:<a href="https://www.behance.net/gallery/137746821/Kissed" class='social-icon-link behance'>
+        tool:<a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
         <i class="fa fa-behance" aria-hidden="true"></i>
         </a>
     },
@@ -85,16 +96,6 @@ export default [
         </a>
     },
     {
-        id:6,
-        image: blog6,
-        title: 'Banner Design',
-        category: 'illustartor',
-        description: 'Adobe illustarator',
-        tool:<a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
-        <i class="fa fa-behance" aria-hidden="true"></i>
-        </a>
-    },
-    {
         id:7,
         image: blog7,
         title: 'Wo(man)',
@@ -104,6 +105,7 @@ export default [
         <i class="fa fa-behance" aria-hidden="true"></i>
         </a>
     },
+    
     {
         id:8,
         image: blog8,
