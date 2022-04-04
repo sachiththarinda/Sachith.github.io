@@ -23,8 +23,10 @@ import blog22 from './img/img-22.png';
 import blog23 from './img/img-23.png';
 import blog24 from './img/img-24.jpg';
 import blog25 from './img/img-25.jpg';
+import blog26 from './img/img-26.jpg';
 
 export default [
+    
     {
         id:1,
         image: blog1,
@@ -35,6 +37,7 @@ export default [
         <i class="fa fa-behance" aria-hidden="true"></i>
         </a>
     },
+    
     {
         id:2,
         image: blog2,
@@ -45,14 +48,13 @@ export default [
         <i class="fa fa-behance" aria-hidden="true"></i>
         </a>
     },
-   
     {
-        id:3,
-        image: blog3,
-        title: 'Kissed',
+        id:26,
+        image: blog26,
+        title: 'valkyries Series',
         category: 'illustartor',
         description: 'Adobe illustarator',
-        tool:<a href="https://www.behance.net/gallery/137746821/Kissed" class='social-icon-link behance'>
+        tool:<a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
         <i class="fa fa-behance" aria-hidden="true"></i>
         </a>
     },
@@ -96,16 +98,7 @@ export default [
         <i class="fa fa-behance" aria-hidden="true"></i>
         </a>
     },
-    {
-        id:5,
-        image: blog5,
-        title: 'BlackOut',
-        category: 'illustartor',
-        description: 'Adobe illustarator',
-        tool:<a href="https://www.behance.net/gallery/138807481/Blackout" class='social-icon-link behance'>
-        <i class="fa fa-behance" aria-hidden="true"></i>
-        </a>
-    },
+    
     {
         id:7,
         image: blog7,
