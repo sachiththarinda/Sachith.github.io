@@ -223,21 +223,21 @@ export default [
         </a>
     },
     {
-        id:11,
-        image: blog11,
-        title: 'Extra Gum',
-        category: 'Brand design',
-        description: 'logo design  for a bubble gum brand called EXTRA GUM......chewing gum that can be blown into bubbles.',
-        tool:<a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
-        <i class="fa fa-behance" aria-hidden="true"></i>
-        </a>
-    },
-    {
         id:12,
         image: blog12,
         title: 'COOL COMFORT ICE CREAM',
         category: 'Brand design',
         description: 'logo design for a ice cream shop called COOL COMFORT ICE CREAM..... A smooth, sweet, cold food prepared from a frozen mixture of milk products and flavorings, containing a minimum of 10 percent milk fat and eaten as a snack or dessert. The definition of ice cream is a soft, frozen treat made from milk fat',
+        tool:<a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
+        <i class="fa fa-behance" aria-hidden="true"></i>
+        </a>
+    },
+    {
+        id:11,
+        image: blog11,
+        title: 'Extra Gum',
+        category: 'Brand design',
+        description: 'logo design  for a bubble gum brand called EXTRA GUM......chewing gum that can be blown into bubbles.',
         tool:<a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
         <i class="fa fa-behance" aria-hidden="true"></i>
         </a>
@@ -264,16 +264,5 @@ export default [
         
     },
     
-    {
-        id:16,
-        image: blog16,
-        title: 'Pedigree Dogfood',
-        category: 'Brand design',
-        description: 'Brand design',
-        tool:<a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
-        <i class="fa fa-behance" aria-hidden="true"></i>
-        </a>
-    }
-
 
 ];
