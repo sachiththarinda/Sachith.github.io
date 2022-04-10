@@ -25,6 +25,7 @@ import blog24 from './img/img-24.jpg';
 import blog25 from './img/img-25.jpg';
 import blog26 from './img/img-26.jpg';
 import blog27 from './img/img-27.jpg';
+import blog28 from './img/img-28.jpg';
 
 export default [
     {
@@ -263,6 +264,17 @@ export default [
         </a>
         
     },
+    {
+        id:28,
+        image: blog28,
+        title: 'ROZO',
+        category: 'Logo design',
+        description: 'Logo design for a brand called ROZO',
+        tool:<a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
+        <i class="fa fa-behance" aria-hidden="true"></i>
+        </a>
+        
+    }
     
 
 ];
