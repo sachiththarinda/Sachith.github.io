@@ -26,80 +26,9 @@ import blog25 from './img/img-25.jpg';
 import blog26 from './img/img-26.jpg';
 import blog27 from './img/img-27.jpg';
 import blog28 from './img/img-28.jpg';
+import blog29 from './img/img-29.png';
 
 export default [
-    {
-        id:23,
-        image: blog23,
-        title: 'Supermarket Self checkout Mobile Application',
-        category: 'UI UX design',
-        description: 'Supermarket Self checkout Mobile Application where a user can scan barcodes, pay for the products online and check out physically at the store without the need for waiting in a queue ',
-        tool:<a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
-        <i class="fa fa-behance" aria-hidden="true"></i>
-        </a>
-    },
-    {
-        id:19,
-        image: blog19,
-        title: 'Mobile Application',
-        category: 'UI UX design',
-        description: 'Mobile Application UI ',
-        tool:<a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
-        <i class="fa fa-behance" aria-hidden="true"></i>
-        </a>
-    },
-    {
-        id:18,
-        image: blog18,
-        title: 'TV Time',
-        category: 'UI UX design',
-        description: 'Mobile Application UI',
-        tool:<a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
-        <i class="fa fa-behance" aria-hidden="true"></i>
-        </a>
-        
-    },
-    {
-        id:17,
-        image: blog17,
-        title: 'Food Hunt',
-        category: 'UI UX design',
-        description: 'Web Application Landing page design | UI',
-        tool:<a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
-        <i class="fa fa-behance" aria-hidden="true"></i>
-        </a>
-        
-    },
-    {
-        id:22,
-        image: blog22,
-        title: 'Vitality',
-        category: 'UI UX design',
-        description: 'Web Application UI | Vitality ',
-        tool:<a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
-        <i class="fa fa-behance" aria-hidden="true"></i>
-        </a>
-    },
-    {
-        id:20,
-        image: blog20,
-        title: 'Star',
-        category: 'UI UX design',
-        description: 'Web Application Landing page UI | Star high performance race cars',
-        tool:<a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
-        <i class="fa fa-behance" aria-hidden="true"></i>
-        </a>
-    },
-    {
-        id:21,
-        image: blog21,
-        title: 'West Coast',
-        category: 'UI UX design',
-        description: 'Web Application Landing page UI | West Coast ',
-        tool:<a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
-        <i class="fa fa-behance" aria-hidden="true"></i>
-        </a>
-    },
     {
         id:1,
         image: blog1,
@@ -192,6 +121,91 @@ export default [
         <i class="fa fa-behance" aria-hidden="true"></i>
         </a>
     },
+    {
+        id:23,
+        image: blog23,
+        title: 'Supermarket Self checkout Mobile Application',
+        category: 'UI UX design',
+        description: 'Supermarket Self checkout Mobile Application where a user can scan barcodes, pay for the products online and check out physically at the store without the need for waiting in a queue ',
+        tool:<a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
+        <i class="fa fa-behance" aria-hidden="true"></i>
+        </a>
+    },
+    {
+        id:19,
+        image: blog19,
+        title: 'Mobile Application',
+        category: 'UI UX design',
+        description: 'Mobile Application UI ',
+        tool:<a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
+        <i class="fa fa-behance" aria-hidden="true"></i>
+        </a>
+    },
+    {
+        id:18,
+        image: blog18,
+        title: 'TV Time',
+        category: 'UI UX design',
+        description: 'Mobile Application UI',
+        tool:<a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
+        <i class="fa fa-behance" aria-hidden="true"></i>
+        </a>
+        
+    },
+    {
+        id:17,
+        image: blog17,
+        title: 'Food Hunt',
+        category: 'UI UX design',
+        description: 'Web Application Landing page design | UI',
+        tool:<a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
+        <i class="fa fa-behance" aria-hidden="true"></i>
+        </a>
+        
+    },
+    {
+        id:29,
+        image: blog29,
+        title: 'Air Ice Cream | Website UI design ',
+        category: 'UI UX design',
+        description: 'We are a big chain of stores that sells ice-cream. Our main product stands out because of its reputation and convenience. We want to convey a sense of comfort, while at the same time being calm.',
+        tool:<a href="https://www.behance.net/gallery/141501797/Air-Ice-Cream-Website-UI-design" class='social-icon-link behance'>
+        <i class="fa fa-behance" aria-hidden="true"></i>
+        </a>
+        
+    },
+   
+    {
+        id:22,
+        image: blog22,
+        title: 'Vitality',
+        category: 'UI UX design',
+        description: 'Web Application UI | Vitality ',
+        tool:<a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
+        <i class="fa fa-behance" aria-hidden="true"></i>
+        </a>
+    },
+    {
+        id:20,
+        image: blog20,
+        title: 'Star',
+        category: 'UI UX design',
+        description: 'Web Application Landing page UI | Star high performance race cars',
+        tool:<a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
+        <i class="fa fa-behance" aria-hidden="true"></i>
+        </a>
+    },
+    {
+        id:21,
+        image: blog21,
+        title: 'West Coast',
+        category: 'UI UX design',
+        description: 'Web Application Landing page UI | West Coast ',
+        tool:<a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
+        <i class="fa fa-behance" aria-hidden="true"></i>
+        </a>
+    },
+    
     
     {
         id:8,
