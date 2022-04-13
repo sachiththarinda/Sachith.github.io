@@ -166,10 +166,10 @@ export default [
     {
         id:29,
         image: blog29,
-        title: 'Air Ice Cream | Website UI design ',
+        title: 'Cool Comfort Ice Cream | Website UI design ',
         category: 'UI UX design',
         description: 'We are a big chain of stores that sells ice-cream. Our main product stands out because of its reputation and convenience. We want to convey a sense of comfort, while at the same time being calm.',
-        tool:<a href="https://www.behance.net/gallery/141501797/Air-Ice-Cream-Website-UI-design" class='social-icon-link behance'>
+        tool:<a href="https://www.behance.net/gallery/141501797/Cool-Comfort-Ice-Cream-Website-UI-design" class='social-icon-link behance'>
         <i class="fa fa-behance" aria-hidden="true"></i>
         </a>
         
