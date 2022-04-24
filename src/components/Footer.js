@@ -23,13 +23,20 @@ export default function Footer() {
                
                   <i class='fab fa-instagram' />
                 </a>
-                <a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
-                <i class="fa fa-behance" aria-hidden="true"></i>
-                </a>
+                
                
                 <a href="https://www.linkedin.com/in/sachith-tharinda-bb4325208/" class='social-icon-link linkedin'>
                   <i class='fab fa-linkedin' />
                   </a>
+                  <a href="https://github.com/sachiththarinda" class='social-icon-link github'>
+                  <i class="fa fa-github" aria-hidden="true"></i>
+                  </a>
+                  <a href="https://dribbble.com/Sachith_th98-" class='social-icon-link linkedin'>
+                  <i class='fab fa-dribbble'  aria-hidden="true" />
+                  </a>
+                  <a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
+                <i class="fa fa-behance" aria-hidden="true"></i>
+                </a>
               </div></Jump>
             </div>
           </section>

@@ -47,6 +47,7 @@ export default function home() {
             <Jump><h3 className="title-text">Hi There, I'm </h3></Jump>
                    <Zoom><h1 className="title-text text-uppercase">Sachith Tharinda</h1></Zoom>
                         <h4 className="title-text ">Designer and Developer</h4>
+                        
                         <Jump>    <div className="site-buttons">
                            
                                 <button type="button" className="btn button primary-button mr-4 text-uppercase">hire
@@ -97,16 +98,21 @@ export default function home() {
                
                   <i class='fab fa-instagram' />
                 </a>
-                <a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
-                <i class="fa fa-behance" aria-hidden="true"></i>
-                </a>
+                
                
                 <a href="https://www.linkedin.com/in/sachith-tharinda-bb4325208/" class='social-icon-link linkedin'>
                   <i class='fab fa-linkedin' />
                   </a>
-                  <a href="https://github.com/sachiththarinda" class='social-icon-link linkedin'>
+                  <a href="https://github.com/sachiththarinda" class='social-icon-link github'>
                   <i class="fa fa-github" aria-hidden="true"></i>
                   </a>
+                  <a href="https://dribbble.com/Sachith_th98-" class='social-icon-link dribbble'>
+                  <i class="fab fa-dribbble" aria-hidden="true"></i>
+                  </a>
+                  <a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
+                <i class="fa fa-behance" aria-hidden="true"></i>
+                </a>
+                  
                   </div>
                  
 
