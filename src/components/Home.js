@@ -53,7 +53,7 @@ export default function home() {
                                 <button type="button" className="btn button primary-button mr-4 text-uppercase">hire
                                     me</button>
                                 
-                                <a href="Sachith Tharinda CV.pdf" class="btn button secondary-button text-uppercase" download='sachith my-cv.pdf' >Get cv</a>
+                                <a href="Sachith Tharinda C.pdf" class="btn button secondary-button text-uppercase" download='sachith my-cv.pdf' >Get cv</a>
                             
                         </div></Jump>
                         
@@ -120,7 +120,7 @@ export default function home() {
             </p>
             
             <div className='downloadcv__button text-center'>
-            <a href="Sachith Tharinda CV.pdf" class="btn button secondary-button text-uppercase" download='sachith my-cv.pdf' >Download cv</a>
+            <a href="Sachith Tharinda C.pdf" class="btn button secondary-button text-uppercase" download='sachith my-cv.pdf' >Download cv</a>
             </div>
             </Fade>
            

@@ -25,9 +25,10 @@ import blog24 from './img/img-24.jpg';
 import blog25 from './img/img-25.jpg';
 import blog26 from './img/img-26.jpg';
 import blog27 from './img/img-27.jpg';
-import blog28 from './img/img-28.jpg';
+import blog28 from './img/img-28.png';
 import blog29 from './img/img-29.png';
 import blog30 from './img/img-30.png';
+import blog31 from './img/img-31.png';
 
 export default [
     
@@ -57,7 +58,7 @@ export default [
         title: 'TV Time',
         category: 'UI UX design',
         description: 'Mobile Application UI',
-        tool:<a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
+        tool: <a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance' title='watch full design :'>
         <i class="fa fa-behance" aria-hidden="true"></i>
         </a>
         
@@ -90,7 +91,7 @@ export default [
         title: 'Vitality',
         category: 'UI UX design',
         description: 'Web Application UI | Vitality ',
-        tool:<a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
+        tool:<a href="https://www.behance.net/gallery/139619471/Vitality-Web-Application-UI-design" class='social-icon-link behance'>
         <i class="fa fa-behance" aria-hidden="true"></i>
         </a>
     },
@@ -126,6 +127,39 @@ export default [
         </a>
     },
     {
+        id:14,
+        image: blog14,
+        title: 'Star',
+        category: 'Logo design',
+        description: 'We are a company that makes high-performance race cars with an emphasis on automation. Our target audience is toddlers. We want to convey a sense of wonder, while at the same time being business-like.',
+        tool:<a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
+        <i class="fa fa-behance" aria-hidden="true"></i>
+        </a>
+        
+    },
+    {
+        id:31,
+        image: blog31,
+        title: 'Cool Comfort',
+        category: 'Logo design',
+        description: 'Logo design for Ice Cream brand - Cool Comfort',
+        tool:<a href="https://www.behance.net/gallery/141501797/Cool-Comfort-Ice-Cream-Website-UI-design" class='social-icon-link behance'>
+        <i class="fa fa-behance" aria-hidden="true"></i>
+        </a>
+        
+    },
+    {
+        id:28,
+        image: blog28,
+        title: 'Vitality',
+        category: 'Logo design',
+        description: 'Logo design for Workout and Gym Clothing Brands - Vitality',
+        tool:<a href="https://www.behance.net/gallery/139619471/Vitality-Web-Application-UI-design" class='social-icon-link behance'>
+        <i class="fa fa-behance" aria-hidden="true"></i>
+        </a>
+        
+    },
+    {
         id:1,
         image: blog1,
         title: 'She/Her',
@@ -152,7 +186,7 @@ export default [
         title: 'valkyries Series',
         category: 'illustartor',
         description: 'Adobe illustarator',
-        tool:<a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
+        tool:<a href="https://www.behance.net/gallery/141042699/Valkyries-series" class='social-icon-link behance'>
         <i class="fa fa-behance" aria-hidden="true"></i>
         </a>
     },
@@ -162,7 +196,7 @@ export default [
         title: 'Valkyries series',
         category: 'illustartor',
         description: 'Adobe illustarator',
-        tool:<a href="https://www.behance.net/gallery/140909337/Valkyries-Series" class='social-icon-link behance'>
+        tool:<a href="https://www.behance.net/gallery/141042699/Valkyries-series" class='social-icon-link behance'>
         <i class="fa fa-behance" aria-hidden="true"></i>
         </a>
     },
@@ -172,7 +206,7 @@ export default [
         title: 'Valkyrie',
         category: 'illustartor',
         description: 'Adobe illustarator',
-        tool:<a href="https://www.behance.net/gallery/140826893/Valkyrie" class='social-icon-link behance'>
+        tool:<a href="https://www.behance.net/gallery/141042699/Valkyries-series" class='social-icon-link behance'>
         <i class="fa fa-behance" aria-hidden="true"></i>
         </a>
     },
@@ -182,7 +216,7 @@ export default [
         title: 'Valkyries series',
         category: 'illustartor',
         description: 'Adobe illustarator',
-        tool:<a href="https://www.behance.net/gallery/140826893/Valkyrie" class='social-icon-link behance'>
+        tool:<a href="https://www.behance.net/gallery/141042699/Valkyries-series" class='social-icon-link behance'>
         <i class="fa fa-behance" aria-hidden="true"></i>
         </a>
     },
@@ -277,28 +311,6 @@ export default [
         tool:<a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
         <i class="fa fa-behance" aria-hidden="true"></i>
         </a>
-    },
-    {
-        id:14,
-        image: blog14,
-        title: 'Star',
-        category: 'Logo design',
-        description: 'We are a company that makes high-performance race cars with an emphasis on automation. Our target audience is toddlers. We want to convey a sense of wonder, while at the same time being business-like.',
-        tool:<a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
-        <i class="fa fa-behance" aria-hidden="true"></i>
-        </a>
-        
-    },
-    {
-        id:28,
-        image: blog28,
-        title: 'ROZO',
-        category: 'Logo design',
-        description: 'Logo design for a brand called ROZO',
-        tool:<a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
-        <i class="fa fa-behance" aria-hidden="true"></i>
-        </a>
-        
     }
     
 
