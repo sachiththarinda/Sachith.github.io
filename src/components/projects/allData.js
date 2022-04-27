@@ -153,7 +153,7 @@ export default [
         image: blog28,
         title: 'Vitality',
         category: 'Logo design',
-        description: 'Logo design for Workout and Gym Clothing Brands - Vitality',
+        description: 'Logo design for Workout and Gym Clothing Brand - Vitality',
         tool:<a href="https://www.behance.net/gallery/139619471/Vitality-Web-Application-UI-design" class='social-icon-link behance'>
         <i class="fa fa-behance" aria-hidden="true"></i>
         </a>
@@ -251,33 +251,12 @@ export default [
         <i class="fa fa-behance" aria-hidden="true"></i>
         </a>
     },
-    
     {
         id:8,
         image: blog8,
         title: 'Pedigree',
         category: 'Brand design',
         description: 'logo design for a dog food brand called Pedigree.',
-        tool:<a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
-        <i class="fa fa-behance" aria-hidden="true"></i>
-        </a>
-    },
-    {
-        id:9,
-        image: blog9,
-        title: 'NIBBEL Chocolate',
-        category: 'Brand design',
-        description: 'logo design for a Chocolate brand called NIBBEL',
-        tool:<a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
-        <i class="fa fa-behance" aria-hidden="true"></i>
-        </a>
-    },
-    {
-        id:10,
-        image: blog10,
-        title: 'MOJO MADE',
-        category: 'Brand design',
-        description: ' MOJO MADE jewelleries ....Our products are unique in representing art, design and culture.  Our key mission is to introduce the finest, upscaled jewelry to customers worldwide, maintaining the essence of both traditional and innovative designs coupled with superb handcraft and quality with the latest technology. ',
         tool:<a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
         <i class="fa fa-behance" aria-hidden="true"></i>
         </a>
@@ -293,11 +272,31 @@ export default [
         </a>
     },
     {
+        id:10,
+        image: blog10,
+        title: 'MOJO MADE',
+        category: 'Brand design',
+        description: ' MOJO MADE jewelleries ....Our products are unique in representing art, design and culture.  Our key mission is to introduce the finest, upscaled jewelry to customers worldwide, maintaining the essence of both traditional and innovative designs coupled with superb handcraft and quality with the latest technology. ',
+        tool:<a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
+        <i class="fa fa-behance" aria-hidden="true"></i>
+        </a>
+    },
+    {
+        id:9,
+        image: blog9,
+        title: 'NIBBEL Chocolate',
+        category: 'Brand design',
+        description: 'logo design for a Chocolate brand called NIBBEL',
+        tool:<a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
+        <i class="fa fa-behance" aria-hidden="true"></i>
+        </a>
+    },
+    {
         id:11,
         image: blog11,
-        title: 'Extra Gum',
+        title: 'Extra Gum Bubble Gum',
         category: 'Brand design',
-        description: 'logo design  for a bubble gum brand called EXTRA GUM......chewing gum that can be blown into bubbles.',
+        description: 'logo design for a bubble gum brand - Extra Gum Bubble Gum ',
         tool:<a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
         <i class="fa fa-behance" aria-hidden="true"></i>
         </a>
