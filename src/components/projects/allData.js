@@ -19,7 +19,7 @@ import blog18 from './img/img-18.png';
 import blog19 from './img/img-19.png';
 import blog20 from './img/img-20.png';
 import blog21 from './img/img-21.png';
-import blog22 from './img/img-22.jpg';
+import blog22 from './img/img-22.png';
 import blog23 from './img/img-23.png';
 import blog24 from './img/img-24.jpg';
 import blog25 from './img/img-25.jpg';
