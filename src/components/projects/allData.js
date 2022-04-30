@@ -29,9 +29,19 @@ import blog28 from './img/img-28.png';
 import blog29 from './img/img-29.png';
 import blog30 from './img/img-30.png';
 import blog31 from './img/img-31.png';
+import blog32 from './img/img-32.png';
 
 export default [
-    
+    {
+        id:32,
+        image: blog32,
+        title: 'Vitality Workout and Gym Clothing Brand ',
+        category: 'UI UX design',
+        description: 'Workout and Gym Clothing Brand - Vitality Mobile application UI design',
+        tool:<a href="https://www.behance.net/gallery/142695259/Workout-and-Gym-Clothing-Brand-Vitality-Mobile-UI" class='social-icon-link behance'>
+        <i class="fa fa-behance" aria-hidden="true"></i>
+        </a>
+    },
     {
         id:30,
         image: blog30,
@@ -106,7 +116,7 @@ export default [
         </a>
         
     },
-    {
+    /* {
         id:20,
         image: blog20,
         title: 'Star',
@@ -115,7 +125,7 @@ export default [
         tool:<a href="https://www.behance.net/sachiththarinda1" class='social-icon-link behance'>
         <i class="fa fa-behance" aria-hidden="true"></i>
         </a>
-    },
+    }, */
     {
         id:21,
         image: blog21,
