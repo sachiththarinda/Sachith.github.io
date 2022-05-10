@@ -24,12 +24,12 @@ export default function home() {
     <>
   <main className="site-main">
 
-  <Navbar bg="light" expand="lg" style={{color:'black'}}>
+  {/* <Navbar bg="light" expand="lg" className='Navbar-section' style={{color:'black'}}>
   <Container>
-    <Navbar.Brand href="#home">Sachith Tharinda</Navbar.Brand>
+    <Navbar.Brand href="#home" className='name'>Sachith Tharinda</Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
-      <Nav className="me-auto">
+      <Nav className="ml-auto">
         <Nav.Link href="#home">Home</Nav.Link>
         <Nav.Link href="#about">About me</Nav.Link>
         <Nav.Link href="#skills">Skills</Nav.Link>
@@ -39,7 +39,7 @@ export default function home() {
       </Nav>
     </Navbar.Collapse>
   </Container>
-</Navbar>
+</Navbar> */}
 
     <section className="site-banner" >   
             <div className="container-fluid">

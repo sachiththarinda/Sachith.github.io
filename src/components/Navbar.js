@@ -1,44 +1,25 @@
-import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import './Navbar.css';
+import React from 'react'
+import './Home.css'
+import { Navbar, Nav, NavItem, NavDropdown, MenuItem, Container } from 'react-bootstrap';
 
-function Navbar() {
-
-  const [toggleMenu, setToggleMenu] = useState(false)
-  
-  const toggleNav = () => {
-    setToggleMenu(!toggleMenu)
-  }
-  const [screenWidth, setScreenWidth] = useState(window.innerWidth)
-
-  useEffect(() => {
-
-    const changeWidth = () => {
-      setScreenWidth(window.innerWidth);
-    }
-
-    window.addEventListener('resize', changeWidth)
-
-    return () => {
-      window.removeEventListener('resize', changeWidth)
-  }
-
-  }, [])
-
-
+export default function Navbr() {
   return (
-    <nav>
-    {(toggleMenu || screenWidth > 500) && (
-    <ul className="list">
-    <li className="items">Home</li>
-    <li className="items">Services</li>
-    <li className="items">Contact</li>
-  </ul>
-    )}
-
-    <button onClick={toggleNav} className="btn">BTN</button>
-  </nav>
+    <>
+    <Navbar bg="light" expand="lg" className='Navbar-section'>
+  <Container>
+    <Navbar.Brand href="#home" className='name'>Sachith Tharinda</Navbar.Brand>
+    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+    <Navbar.Collapse id="basic-navbar-nav">
+      <Nav className="nav-option">
+        <Nav.Link href="#home">Home</Nav.Link>
+        <Nav.Link href="#about">About Me</Nav.Link>
+        <Nav.Link href="#skills">Skills</Nav.Link>
+        <Nav.Link href="#works">Works</Nav.Link>
+        <Nav.Link href="#contact">Contact Me</Nav.Link>       
+      </Nav>
+    </Navbar.Collapse>
+  </Container>
+</Navbar>
+    </>
   )
 }
-
-export default Navbar;
